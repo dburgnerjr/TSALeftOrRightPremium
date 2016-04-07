@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TSA Left Or Right Premium</string>
     <string name="action_settings">Settings</string>
+    <string name="tsaLeftOrRight">TSA Left or Right Premium Version</string>
+    <string name="about">About</string>
+    <string name="start">Start</string>
+    <string name="share">Share</string>
 </resources>
