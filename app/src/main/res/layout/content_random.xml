@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@mipmap/left_arrow" />
+        android:src="@mipmap/left_arrow"
+        android:visibility="gone"/>
 
     <ImageView
         android:id="@+id/imgRight"
@@ -21,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@mipmap/right_arrow" />
+        android:src="@mipmap/right_arrow"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/btnTryAgain"
@@ -30,9 +32,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="#2f97ad"
-        android:text="@string/try_again"
+        android:text="@string/click_here"
         android:textSize="30dp"
-        android:textColor="#fff"
-        android:onClick="randomize" />
+        android:textColor="#fff" />
 
 </RelativeLayout>

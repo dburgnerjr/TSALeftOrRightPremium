@@ -23,8 +23,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RandomActivity"
-            android:label="@string/title_activity_random"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
