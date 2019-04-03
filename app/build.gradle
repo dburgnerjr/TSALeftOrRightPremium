@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "com.danielburgnerjr.tsaleftorrightpremium"
-        minSdkVersion 8
-        targetSdkVersion 23
-        versionCode 3
-        versionName "1.02"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 4
+        versionName "1.04"
     }
     buildTypes {
         release {
@@ -17,11 +17,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp', 'src/main/res/values-en-rAU', 'src/main/res/values-en-rIN', 'src/main/res/values-de', 'src/main/res/es-rUS', 'src/main/res/values-es', 'src/main/res/layout-de', 'src/main/res/values-tl', 'src/main/res/values-ru', 'src/main/res/values-zh-rCN', 'src/main/res/values-zh-rTW', 'src/main/res/values-hi-rIN', 'src/main/res/values-ar']
+        }
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.2.1'
-    compile 'com.android.support:design:23.2.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
 }

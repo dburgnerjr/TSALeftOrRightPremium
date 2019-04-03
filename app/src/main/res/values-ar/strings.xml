@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TSA بشكل عشوائي حر</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="tsaLeftOrRight">TSA بشكل عشوائي نسخة مجانية</string>
+    <string name="about">حول</string>
+    <string name="start">بداية</string>
+    <string name="share">شارك</string>
+    <string name="click_here">انقر هنا</string>
+    <string name="what_is_it">حول TSA بشكل عشوائي</string>
+    <string name="description" >هذا هو لي نسخة من التطبيق TSA بشكل عشوائي أن يكلف دافعي الضرائب الأمريكيين 1.4 مليون $ دولار لجعل.
+        فقد كان موضوعا لعدد من القصص الإخبارية مثل واحد أدناه .
+</string>
+    <string name="story">انقر هنا للحصول على القصة</string>
+    <string name="title_activity_random">RandomActivity</string>
+</resources>
