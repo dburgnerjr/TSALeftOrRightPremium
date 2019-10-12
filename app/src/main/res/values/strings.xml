@@ -10,5 +10,5 @@
     <string name="description">This is my version of a TSA Randomizer app that costs the US taxpayers $1.4 million dollars to make.
     It has been the subject of a number of news stories like the one below.</string>
     <string name="story">Click Here For Story</string>
-    <string name="title_activity_random">RandomActivity</string>
+    <string name="title_activity_random" translatable="false">RandomActivity</string>
 </resources>
