@@ -22,11 +22,17 @@ android {
             res.srcDirs = ['src/main/res', 'src/main/res/values-en-gb', 'src/main/res/layout-sw600dp', 'src/main/res/layout-sw720dp', 'src/main/res/values-en-rAU', 'src/main/res/values-en-rIN', 'src/main/res/values-de', 'src/main/res/es-rUS', 'src/main/res/values-es', 'src/main/res/layout-de', 'src/main/res/values-tl', 'src/main/res/values-ru', 'src/main/res/values-zh-rCN', 'src/main/res/values-zh-rTW', 'src/main/res/values-hi-rIN', 'src/main/res/values-ar']
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
 }
